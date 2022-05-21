@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Troy Vallarta's Portfolio</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap"
+    />
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient"
+    >
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">Vallarta, Troy</a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navbarNav"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects-grid-cards.html"
+                >Projects & Certificates</a
+              >
+            </li>
+            <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+            <li class="nav-item">
+              <a class="nav-link active" href="hire-me.html">Hire me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="page hire-me-page">
+      <section class="portfolio-block hire-me">
+        <div class="container">
+          <div class="heading">
+            <h2>Hire Me</h2>
+          </div>
+          <form action="https://formspree.io/f/myyolrdq" method="POST">
+            <div class="mb-3">
+              <label class="form-label" for="subject">Subject</label
+              ><select class="form-select" id="subject" required="">
+                <optgroup label="Subject Option">
+                  <option value="12">I Would Like to Hire You</option>
+                  <option value="13">I Have a Question</option>
+                  <option value="14">Other Concerns</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="email">Email</label
+              ><input
+                name="EMAIL"
+                class="form-control"
+                type="email"
+                id="email"
+                required=""
+                maxlength="50"
+                minlength="6"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="message">Message</label
+              ><textarea
+                name="MESSAGE"
+                class="form-control"
+                id="message"
+                required
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="form-label" for="email">Name</label
+                  ><input
+                    name="Name"
+                    class="form-control"
+                    type="name"
+                    id="name"
+                    required=""
+                    maxlength="25"
+                    minlength="3"
+                  />
+                </div>
+                <div class="col-md-6 button">
+                  <button class="btn btn-primary d-block w-100" type="submit">
+                    Hire Me
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer data-aos="zoom-in" class="page-footer">
+      <div class="container">
+        <div class="links">
+          <a href="cv.html">About me</a><a href="hire-me.html">Contact me</a
+          ><a href="projects-grid-cards.html">Projects</a>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/troy.vallarta"
+            ><i class="icon ion-social-facebook"></i></a
+          ><a href="https://www.linkedin.com/in/troy-vallarta/"
+            ><i class="icon ion-social-linkedin-outline"></i></a
+          ><a href="https://github.com/Zofserif"
+            ><i class="icon ion-social-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
